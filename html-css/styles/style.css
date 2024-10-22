@@ -1,0 +1,58 @@
+.main-container {
+    display: flex;
+flex-direction: column;
+}
+
+.top {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#box1 {
+    flex:2 ;
+    /* border: 2px solid black; */
+    height: 53vh;
+   
+}
+
+#box2 {
+    flex: 1;
+    /* border: 2px solid black; */
+}
+#box3 {
+    border: 2px solid black;
+    height: 20vh;
+    margin: 0px;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+main {
+    /* display: grid;
+    gap: 10px;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 4fr 500px;
+    height: 100vh;
+    width: 100vh; */
+display: flex;
+flex-direction: column;
+}
+#detail-container{
+    display: flex;
+    justify-content: center;
+}
+#Employment {
+    border: 2px solid black;
+}
+#Education {
+    border: 2px solid black;
+}
+#Section3 {
+    height: 100vh;
+border: 2px solid black;
+}
+body {
+    background-color: whitesmoke;
+}
